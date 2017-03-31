@@ -5,7 +5,7 @@
 ```{r}
 library(devtools)
 install.packages(c('memoise','dplyr','magrittr','httr','tibble','htmltab'))
-devtools::install_github('seandavi/dbBaPDataUse')
+devtools::install_github('seandavi/dbGaPDataUse')
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ gapstats = getStats()
 head(gapstats)
 ```
 
-```{r}
+```
 # A tibble: 6 × 14
   Study_Accession                                Study_Name Study_Release_Date Embargo_End_Date   DAC    PI Project      DAR
             <chr>                                     <chr>              <chr>            <chr> <chr> <chr>   <chr>    <chr>
